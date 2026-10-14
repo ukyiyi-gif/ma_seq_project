@@ -6,3 +6,4 @@ fastp \
   -o sample_R1_trimmed.fastq.gz \
   -O sample_R2_trimmed.fastq.gz \
   --length_required 30 \
+  --qualified_quality_phred 20
