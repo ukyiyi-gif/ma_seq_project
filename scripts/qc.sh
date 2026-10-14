@@ -1,4 +1,5 @@
 #!/bin/bash
+module load fastp
 
 fastp \
   -i sample_R1.fastq.gz \
